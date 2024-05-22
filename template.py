@@ -17,7 +17,7 @@ def msg_template(cityname,carat22,carat24):
                     "type": "section",
                     "text": {
                         "type": "mrkdwn",
-                        "text": "You have a new update:\n*Gold Rate Today - {city}*".format(city=cityname.upper())
+                        "text": "You have a new update:\n*Gold Rate Today : {city}*".format(city=cityname.upper())
                     }
                 },
                 {
