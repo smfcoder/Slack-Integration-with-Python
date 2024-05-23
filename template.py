@@ -10,14 +10,14 @@ def msg_template(cityname,carat22,carat24):
                         "text": "Gold",
                         "emoji": True
                     },
-                    "image_url": "https://images.unsplash.com/photo-1610375461246-83df859d849d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                    "image_url": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-1305151,resizemode-75,msid-109452169/wealth/invest/gold-prices-today-gold-jewellery-rates-of-tanishq-malabar-gold-joyalukkas-kalyan-jewellers.jpg",
                     "alt_text": "gold_img"
                 },
                 {
                     "type": "section",
                     "text": {
                         "type": "mrkdwn",
-                        "text": "You have a new update:\n*Gold Rate Today : {city}*".format(city=cityname.upper())
+                        "text": "You have a new update:\n*Gold Rate Today - {city}*".format(city=cityname.upper())
                     }
                 },
                 {
